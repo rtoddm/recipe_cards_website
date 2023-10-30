@@ -1,0 +1,148 @@
+/****** Global Styles ******/
+body {
+  background-color: #daf7f6;
+  color: #3b3b3b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/****** Header Styles ******/
+header {
+  background: white;
+  text-align: center;
+}
+
+header h1 {
+  display: inline-block;
+  padding: 40px 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  color: #f16059;
+  text-transform: uppercase;
+}
+
+header img {
+  margin-right: 16px;
+}
+
+/****** Main Styles ******/
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 25px 0;
+  overflow: auto;
+}
+
+.image {
+  float: left;
+  width: 500px;
+  height: 550px;
+}
+
+.recipe {
+  float: left;
+  padding: 20px;
+  width: 500px;
+  height: 550px;
+  background: white;
+  box-sizing: border-box;
+}
+
+#cookies .image {
+  background: url(/img/gluten-free-sugar-cookies.jpg);
+  background-size: cover;
+}
+
+#pesto .image {
+  background: url(/img/nut-free-pesto.jpg);
+  background-size: cover;
+}
+
+#salad .image {
+  background: url(/img/watermelon-salad.jpg);
+  background-size: cover;
+}
+
+.recipe h2 {
+  color: #f16059;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  line-height: 29px;
+  margin-top: 0;
+}
+
+.time {
+  margin-bottom: 20px;
+  border: solid black 1px;
+  overflow: auto;
+}
+
+.time div {
+  float: left;
+  padding-left: 6px;
+  width: 33.3333%;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.time .cook {
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+}
+
+.time img {
+  width: 15px;
+  height: auto;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.time-details {
+  display: inline-block;
+}
+
+.time strong {
+  font-family: "Montserrat", sans-serif;
+}
+
+.columns {
+  overflow: auto;
+}
+
+.directions {
+  float: left;
+  width: 240px;
+}
+
+.ingredients {
+  float: left;
+  width: 205px;
+  margin-right: 15px;
+}
+
+.recipe h3 {
+  padding: 5px 10px;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #f16059;
+  text-transform: uppercase;
+}
+
+.ingredients ul {
+  padding-left: 15px;
+  line-height: 24px;
+  list-style-type: square;
+}
+
+.directions ol {
+  padding-left: 15px;
+  line-height: 22px;
+}
